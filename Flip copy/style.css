@@ -1,0 +1,134 @@
+body{
+    color: #f4f4f4;
+    background-color: black;
+    font-family: 'Wallpoet', cursive;
+}
+.wrapper{
+    height: 100%;
+    width:  100%;
+    background-image: url('Burger-and-Fries.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    
+}
+ h1{
+    text-decoration: underline;
+    transform: rotate(-5deg);
+}
+
+
+
+header {
+
+    height: 70px;
+    width: 100%;
+    display: inline-flex;
+   justify-content: space-between;
+   align-items: center;
+
+   color: #f4f4f4;
+   
+
+   
+
+}
+
+ul, li{
+    display: inline;
+    display: flex;
+    align-items: center;
+}
+li{
+    padding-left: 25px;
+}
+button {
+    height: 25px;
+    width: 75px;
+    margin-right: 15px;
+    border-radius: 20px;
+    color: #f4f4f4;
+    background-color: black;
+    font-family: 'Wallpoet', cursive;
+    border: solid 1px #f4f4f4;
+
+}
+button:hover{
+    background-color: #f4f4f4;
+    color: black;
+    border: solid 1px black;
+}
+
+
+#logo h1{
+    margin-left: 15px;
+
+}
+
+
+.hours{
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 460px;
+    font-size: 25px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+#day{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.locpage .locations{
+    height: 500px;
+    width: 50%;
+    background-color: #f4f4f4;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 3px;
+
+    
+}
+.locpage .wrapperloc{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.locpage body{
+    background-color: black;
+    font-family: 'Wallpoet', cursive;
+}
+.locpage h1{
+    display: flex;
+    justify-content: center;
+    color: #f4f4f4;
+    margin-top: 100px;
+}
+
+.locpage img{
+    height: 150px;
+    width: 225px;
+    border-radius: 3px;
+}
+.locpage .city{
+    width: 90%;
+    display: inline-flex;
+    padding: 10px;  
+}
+.locpage .addy{
+    text-align: center;
+    margin-left: 15px;
+}
